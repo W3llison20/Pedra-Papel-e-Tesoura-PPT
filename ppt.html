@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="Favicon/pedra-papel-tesoura.ico">
+</head>
+
+<body onload="perguntar()">
+    <h1>PEDRA, PAPEL & TESOURA</h1>
+
+    <section>  
+
+        <div id="welcome">
+            <p id="p1"><strong>BEM-VINDO A PEDRA, PAPEL E TESOURA</strong></p>
+            <p>🪨📜✂️FAÇA SUA JOGADA🪨📜✂️</p>
+
+        </div>
+
+        <hr>
+        
+        <div>
+            
+            <p>
+                VOCÊ:
+                <input type="button" value="TESOURA ✂️" id="Te" onclick = "clicar()">
+                <input type="button" value="PEDRA 🪨" id="Pe" onclick = "clicar()">
+                <input type="button" value="PAPEL 📜" id="Pa" onclick = "clicar()">
+                <input type="reset" value="LIMPAR" id="limpar" onclick = "limpar()">
+            </p>
+
+            <img src="" alt="" id="foto">
+
+            <p id="robo">&#129302; BOT &#129302;</p>
+            <p id="bot">JOGADA</p>
+            <img alt="" id="img_bot">
+
+        </div>
+
+        <hr>
+
+        <div>
+           <p id="res">  RESULTADO: O resultado aparecerá aqui </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

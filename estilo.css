@@ -1,0 +1,50 @@
+/*adaptando a folha de estilo para palavras acentuadas*/
+@charset "UTF-8";
+/*importando uma fonte externa para a classe robo*/
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body{
+    background: blue;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section{
+    background: white;
+    width: 550px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#welcome{
+    text-align: center;
+}
+
+#robo{
+    font: normal 21px 'Pixelify Sans', sans-serif;
+
+}
+
+#limpar{
+    position: relative;
+    left: 155px;
+
+}
